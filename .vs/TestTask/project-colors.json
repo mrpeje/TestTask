@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61481d51-c94b-4aae-9d1c-8c8ec7c3fb84": {
+      "ProjectGuid": "61481d51-c94b-4aae-9d1c-8c8ec7c3fb84",
+      "DisplayName": "TestTask",
+      "ColorIndex": 0
+    },
+    "2c1cbb2e-d5f6-4981-85b6-759b01bc1310": {
+      "ProjectGuid": "2c1cbb2e-d5f6-4981-85b6-759b01bc1310",
+      "DisplayName": "Demonstration",
+      "ColorIndex": 1
+    },
+    "a9099959-41bb-415e-a17d-6ecd2b2e64fc": {
+      "ProjectGuid": "a9099959-41bb-415e-a17d-6ecd2b2e64fc",
+      "DisplayName": "ShapeClassV2",
+      "ColorIndex": 2
+    },
+    "58c2acb5-03c7-4bac-8a02-fb33323593c7": {
+      "ProjectGuid": "58c2acb5-03c7-4bac-8a02-fb33323593c7",
+      "DisplayName": "ShapeClass.Tests",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Demonstration/1.0.0": {
+        "dependencies": {
+          "TestTaskV.2": "1.0.0.0"
+        },
+        "runtime": {
+          "Demonstration.dll": {}
+        }
+      },
+      "TestTaskV.2/1.0.0.0": {
+        "runtime": {
+          "TestTaskV.2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demonstration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestTaskV.2/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
