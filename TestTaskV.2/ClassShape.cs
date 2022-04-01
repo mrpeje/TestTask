@@ -6,25 +6,40 @@ using System.Threading.Tasks;
 
 namespace TestTaskV2
 {
-    public class Shape
+    public interface IShape
     {
-        virtual public double GetArea() { return 0; }
+        double GetArea();
     }
-    public class Circle : Shape
+    public interface ITriangle : IShape
     {
+        bool IsRightTriangle();
+        double P { get; }
+    }
+    public interface ICircle : IShape
+    {
+        double Radius { get; set; }
+    }
 
-        private double radius;
+    public class Circle : ICircle
+    { 
+        double radius;
+        public double Radius 
+        { 
+            get { return radius; }
+            set { this.radius = value; } 
+        }
+
         public Circle(double value)
         {
             radius = value;
         }
-        public override double GetArea()
+        public double GetArea()
         {
             double area = Math.PI * Math.Pow(radius, 2);
             return Math.Round(area,1);
         }
     }
-    public class Triangle : Shape
+    public class Triangle : ITriangle
     {
         // Длины сторон треугольника
         private double A, B, C;                             
@@ -50,7 +65,7 @@ namespace TestTaskV2
             }
         }
         // Вычисление площади треугольника по формуле Герона
-        public override double GetArea()
+        public double GetArea()
         {
             double area = Math.Sqrt(P * (P - A) * (P - B) * (P - C));
             return area;  

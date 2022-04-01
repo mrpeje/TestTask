@@ -1,8 +1,10 @@
 ﻿using TestTaskV2;
 
-Triangle TT = new TestTaskV2.Triangle(3, 4, 5);
-Shape CC = new TestTaskV2.Circle(3);
 
+ITriangle TT = new Triangle(3, 4, 5);
+ICircle CC = new Circle(3);
+CC.Radius = 5;
+IShape shape = TT;
 if (TT.IsRightTriangle())
     Console.WriteLine("Triangle is right");
 

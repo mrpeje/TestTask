@@ -4,3 +4,8 @@ C:\Users\myew\source\repos\Shapes\TestTaskV.2\obj\Debug\ShapeClassV2.csproj.Asse
 C:\Users\myew\source\repos\Shapes\TestTaskV.2\obj\Debug\ShapeClassV2.csproj.CoreCompileInputs.cache
 C:\Users\myew\source\repos\Shapes\TestTaskV.2\obj\Debug\TestTaskV.2.dll
 C:\Users\myew\source\repos\Shapes\TestTaskV.2\obj\Debug\TestTaskV.2.pdb
+C:\Users\myew\source\repos\TestTask\TestTaskV.2\bin\Debug\TestTaskV.2.dll
+C:\Users\myew\source\repos\TestTask\TestTaskV.2\bin\Debug\TestTaskV.2.pdb
+C:\Users\myew\source\repos\TestTask\TestTaskV.2\obj\Debug\ShapeClassV2.csproj.CoreCompileInputs.cache
+C:\Users\myew\source\repos\TestTask\TestTaskV.2\obj\Debug\TestTaskV.2.dll
+C:\Users\myew\source\repos\TestTask\TestTaskV.2\obj\Debug\TestTaskV.2.pdb
